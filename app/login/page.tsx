@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 export default function Login() {
   return <div className="h-screen w-full bg-neutral-100 grid place-items-center">
     <div className="w-[900px] rounded-[10px] bg-white flex">
-      <div className="bg-[url(/login-image.jpg)] bg-cover rounded-l-[10px] flex-1"/>
-      <div className="flex-1 p-[40px] flex flex-col gap-[40px]">
+      <div className="w-[50%] bg-[url(/login-image.jpg)] bg-cover rounded-l-[10px]"/>
+      <div className="w-[50%] p-[40px] flex flex-col gap-[40px]">
         <FormTitle title="Login" subtitle="Donec tortor quam at duis tortor." />
         <form className="flex flex-col gap-[20px]">
           <FormInput label="E-Mail" placeholder="Placeholder Content"/>
