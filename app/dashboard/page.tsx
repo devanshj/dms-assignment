@@ -1,6 +1,11 @@
 import * as Icon from "@iconscout/react-unicons"
 import { AlertBox, Button, ButtonFlag, FormInput, FormSelect, FormTextarea, FormTitle, InfoBox } from "../components"
 import { FormTable, Pagination } from "../components/TableElements"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Dashboard"
+}
 
 export default function Dashboard() {
   return <div className="bg-neutral-100">
