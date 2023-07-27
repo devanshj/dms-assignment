@@ -17,7 +17,7 @@ export const FormTable = ({ data }: FormTableProps) => {
     </thead>
     <tbody className="text-neutral-800">
       {data.map(([a, b, c]) => 
-        <tr className="even:bg-neutral-100">
+        <tr className="even:bg-neutral-100" key={JSON.stringify([a, b, c])}>
           <td className="px-[20px] py-[10px]">{a}</td>
           <td className="px-[20px] py-[10px]">{b}</td>
           <td className="px-[20px] py-[10px]">{c}</td>
