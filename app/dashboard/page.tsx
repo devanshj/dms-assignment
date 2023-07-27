@@ -65,7 +65,9 @@ export default function Dashboard() {
             <FormTable data={[
               ["Etiam purus in", "Curabitur donec duis", "Morbi pharetra, accumsan"],
               ["Duis eget habitant", "At amet odio", "Commodo eget scelerisque"],
-              ["Aliquam velit lacus", "Pellentesque egestas placerat", "Tortor habitant sit"]
+              ["Aliquam velit lacus", "Pellentesque egestas placerat", "Tortor habitant sit"],
+              ["Fermentum scelerisque ultricies", "Morbi sagittis nulla", "Quam semper quis"],
+              ["Integer semper pellentesque", "Neque turpis enim", "Egestas non sociis"]
             ]} />
             <Pagination total={5} current={1} />
           </div>
@@ -112,7 +114,7 @@ export default function Dashboard() {
               <FormSelect label="Label Title">
                 <option>Choose</option>
               </FormSelect>
-              <FormTextarea label="Label Title" placeholder="Placeholder Content" rows={4}/>
+              <FormTextarea className="flex-1" label="Label Title" placeholder="Placeholder Content" rows={4}/>
               <Button>Button Title</Button>
             </div>
           </div>

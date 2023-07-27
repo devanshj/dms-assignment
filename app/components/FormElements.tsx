@@ -41,6 +41,6 @@ type FormTextareaProps =
 export const FormTextarea = ({ label, ...props }: FormTextareaProps) => {
   return <div className={appendClassName("text-neutral-800 flex flex-col gap-[5px]", props.className)}>
     <label className="font-light text-[14px]">{label}</label>
-    <textarea {...props} className="py-[10px] px-[15px] font-light rounded-[5px] border border-neutral-300"/>
+    <textarea {...props} className="flex-1 py-[10px] px-[15px] font-light rounded-[5px] border border-neutral-300"/>
   </div>
 }
